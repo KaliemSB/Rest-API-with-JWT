@@ -1,0 +1,21 @@
+{
+  "name": "rest-api-with-jwt",
+  "description": "Rest API made with TypeScript, Express and JWT using MongoDB",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kaliem <61659501+KaliemSB@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/app.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/mongoose": "^5.11.97",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10"
+  }
+}
